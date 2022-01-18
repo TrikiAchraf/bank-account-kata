@@ -1,0 +1,11 @@
+-- CREATE CLIENT
+INSERT INTO client VALUES (1, 'Pierre', 'Lafont');
+
+
+-- CREATE BANK_ACCOUNT
+INSERT INTO bank_account VALUES (1, 1000, NOW(), 1);
+
+-- CREATE OPERATION
+INSERT INTO operation VALUES(1, 1000, NOW(), 'DEPOSIT', 1);
+INSERT INTO operation VALUES(2, -100, NOW(), 'WITHDRAWAL', 1);
+
